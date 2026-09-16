@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="100%" height="100%">
+  <defs>
+    <!-- Royal Blue Gradient for Shield Border & Banner -->
+    <linearGradient id="ucuShieldBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0056B3" />
+      <stop offset="50%" stop-color="#0047AB" />
+      <stop offset="100%" stop-color="#092B68" />
+    </linearGradient>
+
+    <!-- Episcopal Magenta Gradient for Center Shield Field -->
+    <linearGradient id="ucuMagentaField" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8007F" />
+      <stop offset="50%" stop-color="#DC0075" />
+      <stop offset="100%" stop-color="#C50066" />
+    </linearGradient>
+
+    <!-- Golden Yellow for Cross & Alpha/Omega -->
+    <linearGradient id="ucuGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF066" />
+      <stop offset="30%" stop-color="#FFCC00" />
+      <stop offset="100%" stop-color="#E0A300" />
+    </linearGradient>
+
+    <!-- Emerald Green for Base Ribbon -->
+    <linearGradient id="ucuRibbonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00883E" />
+      <stop offset="50%" stop-color="#00A852" />
+      <stop offset="100%" stop-color="#007736" />
+    </linearGradient>
+
+    <!-- Drop Shadow for Heraldic Crest -->
+    <filter id="crestShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <g filter="url(#crestShadow)">
+    <!-- 1. HERALDIC SHIELD: OUTER ROYAL BLUE BORDER -->
+    <!-- Authentic UCU Shield with notched top 'ears' and tapering point -->
+    <path
+      d="M 120 18
+         C 145 18, 168 12, 185 10
+         C 183 24, 186 35, 196 42
+         C 182 52, 178 70, 180 95
+         C 182 125, 172 155, 148 185
+         C 134 202, 120 216, 120 216
+         C 120 216, 106 202, 92 185
+         C 68 155, 58 125, 60 95
+         C 62 70, 58 52, 44 42
+         C 54 35, 57 24, 55 10
+         C 72 12, 95 18, 120 18 Z"
+      fill="url(#ucuShieldBlue)"
+      stroke="#FFCC00"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- 2. INNER SHIELD: EPISCOPAL MAGENTA / FUCHSIA FIELD -->
+    <path
+      d="M 120 24
+         C 143 24, 163 19, 177 17
+         C 175 28, 177 37, 186 44
+         C 173 53, 170 68, 172 92
+         C 174 120, 164 148, 142 176
+         C 130 191, 120 203, 120 203
+         C 120 203, 110 191, 98 176
+         C 76 148, 66 120, 68 92
+         C 70 68, 67 53, 54 44
+         C 63 37, 65 28, 63 17
+         C 77 19, 97 24, 120 24 Z"
+      fill="url(#ucuMagentaField)"
+      stroke="#FFD700"
+      stroke-width="1.5"
+    />
+
+    <!-- Inner gold hairline inset -->
+    <path
+      d="M 120 28
+         C 140 28, 159 23, 171 21
+         C 170 30, 171 37, 178 43
+         C 167 51, 164 65, 166 88
+         C 168 114, 158 141, 137 167
+         C 127 180, 120 190, 120 190
+         C 120 190, 113 180, 103 167
+         C 82 141, 72 114, 74 88
+         C 76 65, 73 51, 62 43
+         C 69 37, 70 30, 69 21
+         C 81 23, 100 28, 120 28 Z"
+      fill="none"
+      stroke="#FFCC00"
+      stroke-width="0.8"
+      opacity="0.8"
+    />
+
+    <!-- 3. CENTRAL GOLDEN LATIN CROSS (Double lined with gold & white) -->
+    <!-- Vertical Cross Beam -->
+    <rect x="115.5" y="24" width="9" height="175" fill="#FFCC00" />
+    <rect x="117.5" y="24" width="5" height="175" fill="#FFF8C4" />
+    <line x1="115.5" y1="24" x2="115.5" y2="199" stroke="#B38600" stroke-width="0.8" />
+    <line x1="124.5" y1="24" x2="124.5" y2="199" stroke="#B38600" stroke-width="0.8" />
+
+    <!-- Horizontal Cross Beam -->
+    <rect x="67" y="86.5" width="106" height="9" fill="#FFCC00" />
+    <rect x="67" y="88.5" width="106" height="5" fill="#FFF8C4" />
+    <line x1="67" y1="86.5" x2="173" y2="86.5" stroke="#B38600" stroke-width="0.8" />
+    <line x1="67" y1="95.5" x2="173" y2="95.5" stroke="#B38600" stroke-width="0.8" />
+
+    <!-- 4. TOP-LEFT QUADRANT: GREEK LETTER ALPHA (A) in Gold -->
+    <text
+      x="91"
+      y="76"
+      text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-weight="bold"
+      font-size="34"
+      fill="#FFDD00"
+      stroke="#B38600"
+      stroke-width="0.7"
+    >A</text>
+
+    <!-- 5. TOP-RIGHT QUADRANT: GREEK LETTER OMEGA (Ω) in Gold -->
+    <text
+      x="149"
+      y="76"
+      text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-weight="bold"
+      font-size="33"
+      fill="#FFDD00"
+      stroke="#B38600"
+      stroke-width="0.7"
+    >Ω</text>
+
+    <!-- 6. BOTTOM-LEFT QUADRANT: OPEN HOLY BIBLE (White leaves, bookmark & text lines) -->
+    <g transform="translate(73, 118)">
+      <!-- Open Bible Leaves Background Shadow -->
+      <path
+        d="M 18 17 C 11 15, 3 17, 1 23 C 0 17, -8 15, -16 17 L -16 5 C -8 3, 0 5, 1 10 C 2 5, 10 3, 18 5 Z"
+        fill="#E5E7EB"
+      />
+      <!-- Open Pages White -->
+      <!-- Left Page -->
+      <path
+        d="M 1 9 C -2 5, -8 3, -16 5 L -16 21 C -8 19, -2 21, 1 25 Z"
+        fill="#FFFFFF"
+        stroke="#CBD5E1"
+        stroke-width="0.8"
+      />
+      <!-- Right Page -->
+      <path
+        d="M 1 9 C 4 5, 10 3, 18 5 L 18 21 C 10 19, 4 21, 1 25 Z"
+        fill="#FFFFFF"
+        stroke="#CBD5E1"
+        stroke-width="0.8"
+      />
+      <!-- Book spine divider -->
+      <line x1="1" y1="8" x2="1" y2="25" stroke="#94A3B8" stroke-width="1.2" />
+      <!-- Scripture Text Lines on Left Page -->
+      <line x1="-13" y1="9" x2="-4" y2="8" stroke="#334155" stroke-width="0.9" />
+      <line x1="-13" y1="12" x2="-4" y2="11" stroke="#334155" stroke-width="0.9" />
+      <line x1="-13" y1="15" x2="-4" y2="14" stroke="#334155" stroke-width="0.9" />
+      <line x1="-13" y1="18" x2="-5" y2="17" stroke="#334155" stroke-width="0.9" />
+      <!-- Scripture Text Lines on Right Page -->
+      <line x1="6" y1="8" x2="15" y2="9" stroke="#334155" stroke-width="0.9" />
+      <line x1="6" y1="11" x2="15" y2="12" stroke="#334155" stroke-width="0.9" />
+      <line x1="6" y1="14" x2="15" y2="15" stroke="#334155" stroke-width="0.9" />
+      <line x1="6" y1="17" x2="14" y2="18" stroke="#334155" stroke-width="0.9" />
+      <!-- Golden ribbon bookmark hanging from bottom -->
+      <path d="M 0 24 L 3 31 L 0 29 L -3 31 Z" fill="#FFCC00" />
+    </g>
+
+    <!-- 7. BOTTOM-RIGHT QUADRANT: HOLY SPIRIT WHITE DOVE FLYING -->
+    <g transform="translate(148, 126)">
+      <!-- Dove Silhouette in White with soft shadow -->
+      <!-- Left-facing dove with raised wings -->
+      <path
+        d="M -12 2
+           C -10 -2, -6 -6, -1 -6
+           C 2 -9, 8 -15, 12 -19
+           C 13 -18, 10 -11, 7 -6
+           C 11 -8, 15 -10, 18 -10
+           C 17 -7, 13 -3, 8 1
+           C 12 3, 17 6, 19 10
+           C 15 9, 10 7, 5 5
+           C 2 7, -2 9, -7 8
+           C -12 7, -15 4, -18 1
+           C -17 0, -15 3, -12 2 Z"
+        fill="#FFFFFF"
+        stroke="#E2E8F0"
+        stroke-width="0.7"
+      />
+      <!-- Head & Beak -->
+      <circle cx="-16" cy="1" r="2.8" fill="#FFFFFF" />
+      <path d="M -18 1 L -23 -0.5 L -18 2 Z" fill="#FFCC00" />
+      <!-- Wing feather lines -->
+      <path d="M 0 -5 C 4 -9, 8 -13, 11 -16" stroke="#CBD5E1" stroke-width="0.7" fill="none" />
+      <path d="M 3 -3 C 7 -6, 11 -8, 15 -8" stroke="#CBD5E1" stroke-width="0.7" fill="none" />
+      <!-- Tail Feathers -->
+      <path d="M 3 4 C 8 7, 13 8, 17 9" stroke="#CBD5E1" stroke-width="0.6" fill="none" />
+    </g>
+
+    <!-- 8. BASE BANNER / HERALDIC SCROLL -->
+    <!-- Left Ribbon Fold in Green & Magenta -->
+    <path
+      d="M 50 178
+         C 40 175, 34 186, 38 196
+         C 42 205, 52 207, 62 198
+         C 68 192, 73 186, 75 180
+         Z"
+      fill="url(#ucuRibbonGreen)"
+      stroke="#005A28"
+      stroke-width="1"
+    />
+    <!-- Left Magenta fold edge -->
+    <path
+      d="M 38 196
+         C 33 203, 40 213, 48 210
+         C 55 207, 58 201, 56 195
+         Z"
+      fill="#E00078"
+      stroke="#B8005A"
+      stroke-width="0.8"
+    />
+
+    <!-- Right Ribbon Fold in Green & Magenta -->
+    <path
+      d="M 190 178
+         C 200 175, 206 186, 202 196
+         C 198 205, 188 207, 178 198
+         C 172 192, 167 186, 165 180
+         Z"
+      fill="url(#ucuRibbonGreen)"
+      stroke="#005A28"
+      stroke-width="1"
+    />
+    <!-- Right Magenta fold edge -->
+    <path
+      d="M 202 196
+         C 207 203, 200 213, 192 210
+         C 185 207, 182 201, 184 195
+         Z"
+      fill="#E00078"
+      stroke="#B8005A"
+      stroke-width="0.8"
+    />
+
+    <!-- Main Curved Central Ribbon Band in Royal Blue -->
+    <path
+      d="M 52 186
+         C 75 198, 97 205, 120 205
+         C 143 205, 165 198, 188 186
+         C 180 208, 155 222, 120 222
+         C 85 222, 60 208, 52 186 Z"
+      fill="url(#ucuShieldBlue)"
+      stroke="#FFCC00"
+      stroke-width="1.2"
+    />
+
+    <!-- Gold dots / roundels at base of shield & scroll -->
+    <circle cx="113" cy="214" r="2.2" fill="#FFD700" stroke="#997A00" stroke-width="0.5" />
+    <circle cx="120" cy="215" r="2.5" fill="#FFD700" stroke="#997A00" stroke-width="0.5" />
+    <circle cx="127" cy="214" r="2.2" fill="#FFD700" stroke="#997A00" stroke-width="0.5" />
+
+    <!-- Script Ribbon Text (Alpha and Omega) in Gold -->
+    <path
+      id="mottoPath"
+      d="M 68 199 Q 120 218 172 199"
+      fill="none"
+    />
+    <text font-family="'Brush Script MT', 'Lucida Calligraphy', cursive, serif" font-size="9" font-weight="bold" fill="#FFEA79">
+      <textPath href="#mottoPath" startOffset="50%" text-anchor="middle">
+        Alpha and Omega
+      </textPath>
+    </text>
+  </g>
+
+  <!-- 9. OFFICIAL TYPOGRAPHY UNDER SHIELD -->
+  <text
+    x="120"
+    y="248"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="14"
+    font-weight="bold"
+    letter-spacing="1.5"
+    fill="#091E3A"
+  >
+    UGANDA CHRISTIAN
+  </text>
+  <text
+    x="120"
+    y="266"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="14"
+    font-weight="bold"
+    letter-spacing="2"
+    fill="#091E3A"
+  >
+    UNIVERSITY
+  </text>
+</svg>

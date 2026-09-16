@@ -1,0 +1,6 @@
+{
+  "name": "CampusQ — UCU Accounts Office Digital Services & Intelligent Virtual Queue System",
+  "description": "Production-ready university Accounts Office digital services, automated financial clearance & milestone verification, remote staff ticketing, and intelligent virtual queue system for Uganda Christian University (UCU).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ucu-blue: #091E3A;
+  --color-ucu-blue-dark: #061528;
+  --color-ucu-blue-light: #132E52;
+  --color-ucu-blue-border: #1E3A60;
+
+  /* UCU Crest Shield Royal Blue */
+  --color-ucu-shield-blue: #0047AB;
+  --color-ucu-royal-blue: #0B57C2;
+  
+  /* UCU Crest Episcopal Magenta / Bishop's Amaranth */
+  --color-ucu-magenta: #E6007E;
+  --color-ucu-magenta-dark: #B8005A;
+  --color-ucu-magenta-light: #F472B6;
+  --color-ucu-magenta-bg: #FDF2F8;
+  --color-ucu-magenta-border: #FBCFE8;
+
+  /* UCU Crest Cross Golden Yellow */
+  --color-ucu-gold: #C69214;
+  --color-ucu-gold-light: #E5B53B;
+  --color-ucu-gold-accent: #D4AF37;
+  --color-ucu-gold-dark: #966C0B;
+  --color-ucu-gold-bg: #FEF9C3;
+  --color-ucu-crest-gold: #FFCC00;
+  --color-ucu-gold-bright: #FFD700;
+
+  /* UCU Crest Ribbon Emerald Green */
+  --color-ucu-green: #14532D;
+  --color-ucu-green-vibrant: #15803D;
+  --color-ucu-green-light: #16A34A;
+  --color-ucu-green-bg: #DCFCE7;
+  --color-ucu-green-border: #86EFAC;
+  --color-ucu-ribbon-green: #00883E;
+  --color-ucu-ribbon-green-vibrant: #00A852;
+
+  --color-ucu-charcoal: #1E293B;
+  --color-ucu-charcoal-dark: #0F172A;
+  --color-ucu-charcoal-light: #334155;
+  --color-ucu-charcoal-muted: #64748B;
+}
+
+/* UCU Official Brand Palette System Styles */
+:root {
+  --ucu-primary: #091E3A;
+  --ucu-shield-blue: #0047AB;
+  --ucu-magenta: #E6007E;
+  --ucu-gold: #FFCC00;
+  --ucu-green: #00883E;
+  --ucu-charcoal: #1E293B;
+}
+
+/* Custom utility classes reflecting UCU Brand Identity & Crest */
+.ucu-brand-gradient {
+  background: linear-gradient(135deg, #091E3A 0%, #0047AB 50%, #132E52 100%);
+}
+
+.ucu-magenta-gradient {
+  background: linear-gradient(135deg, #E6007E 0%, #D80072 60%, #BE0061 100%);
+}
+
+.ucu-gold-gradient {
+  background: linear-gradient(135deg, #FFCC00 0%, #E5B53B 100%);
+}
+
+.ucu-magenta-pill {
+  background-color: #FDF2F8;
+  color: #BE0061;
+  border: 1px solid #FBCFE8;
+}
+
+.ucu-green-pill {
+  background-color: #DCFCE7;
+  color: #14532D;
+  border: 1px solid #86EFAC;
+}
+
+.ucu-gold-pill {
+  background-color: #FEF9C3;
+  color: #854D0E;
+  border: 1px solid #FDE047;
+}
+
+.ucu-blue-pill {
+  background-color: #091E3A;
+  color: #FFD700;
+  border: 1px solid #1E3A60;
+}
